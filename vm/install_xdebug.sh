@@ -5,7 +5,7 @@ sudo apt-get install -y php5-dev
 sudo apt-get install -y php5-xdebug
 
 # setup xdebug remote connection
-echo <<EOT >> /etc/php5/apache2/conf.d/20-xdebug.ini
+cat >> /etc/php5/apache2/conf.d/20-xdebug.ini <<EOT
 
 xdebug.remote_enable = 1
 xdebug.idekey = "PHPSTORM"
