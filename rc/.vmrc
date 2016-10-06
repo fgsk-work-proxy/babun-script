@@ -1,0 +1,2 @@
+alias loadvmdb="vagrant ssh -- -L8888:127.0.0.1:3306"
+
